@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.container {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #606c38;
+}
+
+.heading {
+    padding-top: 5vh;
+    color: #283618;
+    font-size: 50px;
+    text-align: center;
+}
+
+#msg {
+    padding-top: 2vh;
+    color: #283618;
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+}
+
+.grid {
+    margin-top: 5vh;
+    width: 40vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    border: 2px solid #283618;
+    /* width: 40vw;
+    height: 60vh; */
+    position: relative;
+    margin: auto;
+}
+
+.unit {
+    border: 2px solid #283618;
+    width: calc(40vw/3);
+    height: 20vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.unit:hover {
+    cursor: pointer;
+}
+
+.info {
+    padding: 3%;
+    display: flex;
+}
+
+.score {
+    flex: 1;
+    color: #283618;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reset {
+    position: absolute;
+    background-color: antiquewhite;
+    right: 3vw;
+    margin-top: -5vh;
+}
+
+.reset button {
+    font-size: 20px;
+    background-color: #283618;
+    color: white;
+    padding: 20% 40%;
+    border: 1px solid white;
+}
+
+.reset button:hover {
+    background-color: #344520;
+    box-shadow: -5px 3px 10px 0px #333333;
+    cursor: pointer;
+}
+
+.X {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.O {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.icon {
+    position: absolute;
+    margin-top: 85vh;
+    margin-left: 1vw;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    margin-top: 89vh;
+}
